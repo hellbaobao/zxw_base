@@ -1,0 +1,48 @@
+html{overflow-x:hidden;}
+.option_search{ margin: 10px 0 0 10px;}
+.table_content{ margin: 10px 0 0 0;}
+th{background-color: #eee;};
+td{border-bottom: 1px solid #ccc;};
+.btn{padding: 0px 6px;}
+.edit-btn{ background-image:url("");color: #1ec3ff;}
+.del-btn{ color: #ff1a19;}
+.items-btn{ color: #2060ff;}
+.order-btn{ color: #ff210d;}
+.prom-btn{ color: #B22CFA;}
+.upload-btn{ color: #B22CFA;}
+
+.lable-dialog{ color:#666;font-size: 11px;}
+.tipMsg{color: #ff210d;margin: 0 0 0 5px;}
+
+/*detail_div*/
+.detail_div .content{padding: 10px 0;font-size:19px;text-align: center;border: 1px solid #ccc;margin-top:1%;margin-left:5%;margin-right:5%;}
+.detail_div .content .time{font-size: 13px;color: #828282;}
+.detail_div .content .main{text-align:left;text-indent:2%;margin:0 2% 1% 2%;}
+.detail_div .attach_list{border-bottom:1px solid #ccc;margin-top: 15px;}
+.detail_div .prom_list{border-bottom:1px solid #ccc;margin-top: 15px;}
+.detail_div .model_title{font-size:15px;color: #666;margin-left:2%;}
+.detail_div .comment_list{border-bottom:1px solid #ccc;margin-top: 15px;}
+.detail_div .comment_content{margin-left:6%;}
+.detail_div .list_header{line-height: 20px;}
+.detail_div .list_header span{margin-right:3%;color:#1C77F6;}
+.detail_div .list_content{margin-right:2%; line-height:26px; border-bottom:1px solid #ccc}
+.detail_div .comment_list ul li:last-child div{ border-bottom:0px;}
+
+
+.b-icon-style{
+    margin-right: 5px;
+    padding: 2px;
+    color: #fff;
+
+}
+.b-icon-title0{
+    background-color: #3cc051;
+}
+.b-icon-title1{
+    background-color: #ed4e2a;
+}
+.b-icon-title2{
+    background-color: #fcb322;
+}
+
+.tipMsg{ color: #FF210D; height: 34px; line-height:34px;}

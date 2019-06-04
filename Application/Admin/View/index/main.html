@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        {$Think.const.ADMIN_META}{$Think.const.ADMIN_CSS}{$Think.const.ADMIN_COMPATIBLE}{$Think.const.ADMIN_JS}{$Assigndata}
+        <!--自定义样式及脚本放于此处-->
+        <link rel="stylesheet" href="__PUBLIC__/admin/css/index.css">
+        <link rel="stylesheet" href="__PUBLIC__/admin/css/common.css">
+        <script type="text/javascript" src="__PUBLIC__/admin/js/index/index.js"></script>
+        {$Think.const.ANIMATION}
+        <title>{$config['system_name']}</title>
+    </head>
+    <body
+        <div class="container" style="width: 100%;">
+            <div class="row" style="background-color: #fff;margin-bottom: 20px;" >
+                <div class="b-tip-div col-xs-6 col-sm-3">
+                    <div class="b-tip b-color-tip1 hvr-buzz-out">
+                        <div class="b-tip-body">
+                            <div class="b-tip-left">
+                                <i class="glyphicon glyphicon-send"></i>
+                            </div>
+                            <div class="b-tip-right">
+                                <div class="b-tip-titleb">{$mainNum['notice']}&#12288;条</div>
+                                <div class="b-tip-titlel"> 累计发布&#12288;<b>内容信息</b></div>
+                            </div>
+                        </div>
+                        <div class="b-tip-footer">
+                            截至{$nowTime}
+                            <span class='b-more'><span class="pull-right glyphicon glyphicon-time b-more"></span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="b-tip-div col-xs-6 col-sm-3">
+                    <div class="b-tip b-color-tip2 hvr-buzz-out">
+                        <div class="b-tip-body">
+                            <div class="b-tip-left">
+                                <i class="glyphicon glyphicon-globe"></i>
+                            </div>
+                            <div class="b-tip-right">
+                                <div class="b-tip-titleb">{$mainNum['appt_learn']}&#12288;条</div>
+                                <div class="b-tip-titlel"> 累计发布&#12288;<b>培训信息</b></div>
+                            </div>
+                        </div>
+                        <div class="b-tip-footer">
+                            截至{$nowTime}
+                            <span class='b-more'><span class="pull-right glyphicon glyphicon-time b-more"></span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="b-tip-div col-xs-6 col-sm-3">
+                    <div class="b-tip b-color-tip3 hvr-buzz-out">
+                        <div class="b-tip-body">
+                            <div class="b-tip-left">
+                                <i class="glyphicon glyphicon-user"></i>
+                            </div>
+                            <div class="b-tip-right">
+                                <div class="b-tip-titleb">{$mainNum['visit_num']}&#12288;人次</div>
+                                <div class="b-tip-titlel"> 累计&#12288;<b>参观预约</b></div>
+                            </div>
+                        </div>
+                        <div class="b-tip-footer">
+                            截至{$nowTime}
+                            <span class='b-more'><span class="pull-right glyphicon glyphicon-time b-more"></span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="b-tip-div col-xs-6 col-sm-3">
+                    <div class="b-tip b-color-tip4 hvr-buzz-out" >
+                        <div class="b-tip-body">
+                            <div class="b-tip-left">
+                                <i class="glyphicon glyphicon-gift"></i>
+                            </div>
+                            <div class="b-tip-right">
+                                <div class="b-tip-titleb">{$mainNum['learn_num']}&#12288;人次</div>
+                                <div class="b-tip-titlel"> 累计&#12288;<b>培训预约</b></div>
+                            </div>
+                        </div>
+                        <div class="b-tip-footer">
+                            截至{$nowTime}
+                            <span class='b-more'><span class="pull-right glyphicon glyphicon-time b-more"></span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="b-main-list col-xs-12 col-sm-6">
+                    <div class="b-main-list-info">
+                        <table class="table table-hover">
+                            <tr>
+                                <th colspan="4" style="text-align: left;color: #45c8dc;"><i class="glyphicon glyphicon-globe hvr-bounce-in"></i>&#12288;最新内容信息</th>
+                            </tr>
+                            <notempty name="noticeArr">
+                                <foreach name="noticeArr" item="v" key="k">
+                                    <tr class="tr">
+                                        <td>
+                                            {$v.icon}<a href="__MODULE__/NoticeInfo/noticeDetail/id/{$v.id}">{$v.title|msubstr=0,17,'utf-8',true}</a>
+                                        </td>
+                                        <td><span class="label label-info" style="font-size: 13px;line-height: 13px;">{$v.realname}</span></td>
+                                        <td style="text-align: right;">{$v.add_time}</td>
+                                    </tr>
+                                </foreach>
+                            </notempty>
+                            <empty name="noticeArr">
+                                <tr><td colspan="4" style="text-align: center;">(＞﹏＜)&#12288;暂无数据</td></tr>
+                            </empty>
+                        </table>
+                    </div>
+                </div>
+                <div class="b-main-list col-xs-12 col-sm-6">
+                    <div class="b-main-list-info">
+                        <table class="table table-hover">
+                            <tr>
+                                <th colspan="4" style="text-align: left;color: #45c8dc;"><i class="glyphicon glyphicon-globe"></i>&#12288;最新培训信息</th>
+                            </tr>
+                            <notempty name="apptlearnArr">
+                                <foreach name="apptlearnArr" item="v" key="k">
+                                    <tr class="tr">
+                                        <td>
+                                            {$v.icon}<a href="__MODULE__/Apptlearn/apptlearnDetail/id/{$v.id}">{$v.title|msubstr=0,17,'utf-8',true}</a>
+                                        </td>
+                                        <td>
+                                            <span class="label label-success" style="font-size: 13px;line-height: 13px;">讲师：{$v.teacher}</span>
+                                        </td>
+                                        <td style="text-align: right;">{$v.start_time.ymd}</td>
+                                    </tr>
+                                </foreach>
+                            </notempty>
+                            <empty name="apptlearnArr">
+                                <tr><td colspan="4" style="text-align: center;">(＞﹏＜)&#12288;暂无数据</td></tr>
+                            </empty>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html> 

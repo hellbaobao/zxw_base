@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        {$Think.const.ADMIN_META}{$Think.const.ADMIN_CSS}{$Think.const.ADMIN_COMPATIBLE}{$Think.const.ADMIN_JS}{$Assigndata}
+        <!--自定义样式及脚本放于此处-->
+        <link rel="stylesheet" href="__PUBLIC__/admin/css/login.css">
+        <script type="text/javascript" src="__PUBLIC__/admin/js/login/login.js"></script>
+        {$Think.const.ANIMATION}
+        <title>{$config['system_name']}</title>
+    </head>
+    <body>
+        <input type="hidden" name="url" id="url" value="register">
+        <nav class="navbar navbar-inverse navbar-fixed-top b-header">
+            <div class="container-fluid">
+                <div class="navbar-header ">
+                    <div class="b-systitle">{$config['system_name']}</div>
+                </div>                
+            </div>
+        </nav>
+
+        <div class="container-fluid b-menu">
+            <div class="row">                
+                <div class="col-md-12 b-login-bg">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 b-login-div b-icon-computer"></div>
+                        <div class="col-xs-12 col-sm-6 b-login-div b-icon-login">
+                            <div class="b-login-area">
+                                <div class="b-login-title">
+                                    注&#12288;册
+                                </div>
+                                <div class="b-input-tr">
+                                    <div class="input-group input-group-lg b-input-border">
+                                        <span class="input-group-addon b-input-icon"><i class="glyphicon glyphicon-user"></i></span>
+                                        <input type="text" class="form-control" placeholder="请输入用户名" style="height: 50px;" id="username">
+                                        <div class="input-group-btn">
+                                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" style="height: 50px;">
+                                                <span id="cat_title">用户类型</span>
+                                                <span class="caret"></span>
+                                                <input type="hidden" name="cat_id" id="cat_id" value="0">
+                                            </button>
+                                            <ul class="dropdown-menu pull-right">
+                                                {$options}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="b-input-tr">
+                                    <div class="input-group input-group-lg b-input-border">
+                                        <span class="input-group-addon b-input-icon"><i class="glyphicon glyphicon-lock"></i></span>
+                                        <input type="password" class="form-control" placeholder="请输入密码" style="height: 50px;" id="password">
+                                    </div>
+                                </div>
+                                <div class="b-input-tr">
+                                    <div class="input-group input-group-lg b-input-border">
+                                        <span class="input-group-addon b-input-icon"><i class="glyphicon glyphicon-lock"></i></span>
+                                        <input type="password" class="form-control" placeholder="请再次输入密码" style="height: 50px;" id="passworda">
+                                    </div>
+                                </div>
+                                <div class="b-input-tr">
+                                    <div class="alert alert-danger" style="display: none;" id="warning">
+                                        <i class="glyphicon glyphicon-exclamation-sign"></i>
+                                        <span id="warnMsg">错误！请进行一些更改。</span>
+                                    </div>
+                                    <div class="b-login-btn hvr-grow" onclick="subReg()">
+                                        注&#12288;册
+                                    </div>
+                                </div>
+                                <div class="b-input-tr">
+                                    <div class="b-input-foot">
+                                        <div class="b-input-foot-btn b-text-left" onclick="aHref('__CONTROLLER__/login')">返回登录</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">                
+                <div class="col-md-12 b-login-footer hvr-overline-from-center">
+                    {$config['system_name']}
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html> 

@@ -1,0 +1,178 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-2-24, 11:26:55
+    Author     : hellobao
+*/
+/*header*/
+.b-header{
+    background-color: #fff;
+}
+.b-systitle{
+    color: #000;
+    font-family: '微软雅黑';
+    font-size: 26px;
+    line-height: 26px;
+    margin: 18px 0 18px 30px;
+    /*background-color: red;*/
+}
+.b-menu{
+    width: 100%;
+    height: auto;
+    /*background-color: gold;*/
+    margin-top: 63px;
+}
+.b-login-bg{
+    /*background-color: #444;*/
+    background-image: url('../img/login/login-bg.jpg');
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.b-login-bg-main{
+    background-image: url('../img/login/bg-main.png');
+    background-repeat: no-repeat;
+    height: 770px;
+}
+
+.b-login-div{
+
+}
+.b-cat1{
+    background-image: url('../img/login/cat1.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 175px;
+    cursor: pointer;
+}
+.b-cat2{
+    background-image: url('../img/login/cat2.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 175px;
+    cursor: pointer;
+}
+.b-cat3{
+    background-image: url('../img/login/cat3.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 175px;
+    cursor: pointer;
+}
+.b-cat4{
+    background-image: url('../img/login/cat4.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 175px;
+    cursor: pointer;
+}
+.b-cat-name{
+    margin-top:175px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #444;
+    cursor: pointer;
+    
+}
+.b-icon-computer{
+    /*background-image: url('../img/login/computer.png');*/
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 600px;
+}
+.b-icon-login{
+    background-image: url('../img/login/login-login.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height:650px;
+}
+.b-login-footer{
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #555;
+}
+.b-login-area{
+    width:480px;
+    height: 520px;
+    margin: 0 auto;
+    margin-top: 115px;
+}
+.b-login-title{
+    width:480px;
+    height: 80px;
+    line-height: 100px;
+    background-color: #fff;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 22px;
+    font-weight: bold;
+    color: #45c8dc;
+}
+.b-input-tr{
+    width:480px;
+    padding: 0px 20px;
+}
+.b-input-border{
+    width: 440px;
+    height: 50px;
+    margin: 25px 0px;
+}
+.b-input-icon{
+    background-color: #fff;
+    color: #45c8dc;
+}
+.b-login-yzm{
+    width: 140px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.b-login-btn{
+    width: 440px; 
+    height: 50px;
+    line-height: 50px;
+    background-color: #faa600;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+.b-input-foot{
+    width: 440px; 
+    height: 80px;
+}
+.b-input-foot-btn{
+    width: 220px;
+    line-height: 80px;
+    float: left;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: bold;
+    color: #aaa;
+    cursor: pointer;
+}
+.b-text-left{
+    text-align: left;
+}
+.b-text-right{
+    text-align: right;
+}
+.b-text-center{
+    text-align: center; 
+}

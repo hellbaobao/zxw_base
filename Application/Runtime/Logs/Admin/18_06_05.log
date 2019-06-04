@@ -1,0 +1,126 @@
+[ 2018-06-05T10:35:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: user_id E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2018-06-05T10:35:32+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2018-06-05T10:35:32+08:00 ] 127.0.0.1 /index.php/Admin/login/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2018-06-05T10:35:32+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0027s ]
+NOTIC: [8] Undefined variable: return E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Admin\Controller\LoginController.class.php 第 115 行.
+
+[ 2018-06-05T10:35:32+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_priv_cat` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_priv_info` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined index: user_id E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Admin\Controller\SysPrivInfoController.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2018-06-05T16:54:58+08:00 ] 127.0.0.1 /index.php/Admin/login/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001037s ]
+
+[ 2018-06-05T16:54:58+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_priv_cat` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_priv_info` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: user_id E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Admin\Controller\SysPrivInfoController.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2018-06-05T16:54:58+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: return E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Admin\Controller\LoginController.class.php 第 115 行.
+
+[ 2018-06-05T16:55:01+08:00 ] 127.0.0.1 /index.php/Admin/login/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001147s ]
+

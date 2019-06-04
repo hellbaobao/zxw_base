@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {$Think.const.ADMIN_META}{$Think.const.ADMIN_CSS}{$Think.const.ADMIN_COMPATIBLE}{$Think.const.ADMIN_JS}{$Assigndata}
+        <link rel="stylesheet" href="/Public/admin/css/common.css">
+        <script type="text/javascript" src="/Public/Plugin/layer-v3.0.2/layer.js"></script>
+        <script type="text/javascript" src="/Public/admin/js/common.js"></script>
+    </head>
+    <body>
+        <!--添加信息-->
+        <div class="container">
+            <form method="post" action="#"  class="form-horizontal"  id="save-form" style="margin-top: 20px;">
+                <div class="form-group">
+                    <label for="title" class="col-sm-2 control-label">关键字</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="keyword" name="keyword" placeholder="请输入关键字">
+                    </div>
+                    <label class="col-sm-2"><span class="tipMsg">*</span></label>
+                </div>
+                <div class="form-group">
+                    <label for="editor" class="col-sm-2 control-label">命令</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="order" name="order" readonly="readonly">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label"></label>
+                    <div class="col-sm-9">
+                        <button type="button" class="btn btn-primary" onclick="tjml()">执&#12288;&#12288;行</button>
+                        <button type="button" class="btn btn-default" onclick="javascript:$('#order').val('makec')">控制器</button>
+                        <button type="button" class="btn btn-default" onclick="javascript:$('#order').val('makem')">模型</button>
+                        <button type="button" class="btn btn-default" onclick="javascript:$('#order').val('makev')">视图</button>
+                        <button type="button" class="btn btn-default" onclick="javascript:$('#order').val('maket')">数据表</button>
+                        <button type="button" class="btn btn-default" onclick="javascript:$('#order').val('maker')">菜单权限</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="hhh">
+
+        </div>
+
+    </body>
+    <script type="text/javascript">
+        function tjml() {
+            var keyword = $("#keyword").val();
+            var order = $("#order").val();
+            $.post(c_path + "/zxAction", {'keyword': keyword, 'order': order}, function (data) {
+//                if (data.flag) {
+                    var str = '<div class="panel panel-success">'
+                            + '<div class="panel-heading">'
+                            + '<h3 class="panel-title">' + data.flag + '</h3>'
+                            + '<h3 class="panel-title" style="float:right;margin-top:-18px;">' + getCurrentDatetime() + '</h3>'
+                            + '</div>'
+                            + '<div class="panel-body">'
+                            + data.msg
+                            + '</div>'
+                            + '</div>';
+                    $(".hhh").prepend(str);
+//                } else {
+//
+//                }
+            }, 'json');
+        }
+
+        /**
+         * 获取当前日期时间
+         * @returns {String}
+         */
+        function getCurrentDatetime() {
+            var date = new Date();
+            var y = date.getFullYear();
+            var m = date.getMonth() + 1;
+            m = m > 9 ? m : '0' + m;
+            var d = date.getDate();
+            d = d > 9 ? d : '0' + d;
+            var h = date.getHours();
+            h = h > 9 ? h : '0' + h;
+            var i = date.getMinutes();
+            i = i > 9 ? i : '0' + i;
+            var s = date.getSeconds();
+            s = s > 9 ? s : '0' + s;
+            return y + '-' + m + '-' + d + ' ' + h + ':' + i + ':' + s;
+        }
+    </script>
+</html>

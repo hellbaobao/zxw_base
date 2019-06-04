@@ -1,0 +1,42 @@
+[ 2018-05-16T10:44:11+08:00 ] 127.0.0.1 /index.php/Seller/index/checkIsLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0015s ]
+
+[ 2018-05-16T10:45:35+08:00 ] 127.0.0.1 /index.php/Seller/index/checkIsLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0024s ]
+
+[ 2018-05-16T16:20:23+08:00 ] 127.0.0.1 /index.php/Seller/index/checkIsLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0021s ]
+
+[ 2018-05-16T16:31:13+08:00 ] 127.0.0.1 /index.php/Seller/index/checkIsLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0032s ]
+
+[ 2018-05-16T16:31:17+08:00 ] 127.0.0.1 /index.php/Seller/index/checkIsLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0015s ]
+
+[ 2018-05-16T16:35:19+08:00 ] 127.0.0.1 /index.php/Seller/index/checkIsLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0023s ]
+

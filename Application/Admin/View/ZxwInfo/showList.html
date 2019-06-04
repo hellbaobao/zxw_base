@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <title>Zxw</title>
+        {$Think.const.ADMIN_META}{$Think.const.ADMIN_CSS}{$Think.const.ADMIN_COMPATIBLE}{$Think.const.ADMIN_JS}{$Assigndata}
+        <link rel="stylesheet" href="/Public/Plugin/bootstrap/css/bootstrap-treeview.css">
+        <link rel="stylesheet" href="/Public/admin/css/common.css">
+        <script type="text/javascript" src="/Public/Plugin/bootstrap/js/bootstrap-treeview.js"></script>
+        <script type="text/javascript" src="/Public/Plugin/layer-v3.0.2/layer.js"></script>
+        <script type="text/javascript" src="/Public/admin/js/common.js"></script>
+        <script type="text/javascript" src="/Public/admin/js/Zxw/info.js"></script>
+    </head>
+    <body>
+        <div class="option_search">
+            <form method="get" action="__CONTROLLER__/showList" class="form-horizontal" id="search-form" style="margin-top: 20px;">
+                <div class="form-group">
+                    <div class="col-sm-3" style="min-width: 200px;">
+                        <button type="button" class="btn btn-success addZxwInfo" id="addInfo-btn" onclick="javascript:void(window.location.href = '__CONTROLLER__/add')" style="height: 34px;">
+                            <span class="glyphicon glyphicon-plus"></span> 新增
+                        </button>
+                        <button type="button" class="btn btn-danger delZxwInfo" id="delArrayInfo-btn" style="height: 34px;">
+                            <span class="glyphicon glyphicon-trash"></span> 批量删除
+                        </button>
+                    </div>
+                    <div class="col-sm-3">
+                    </div>
+
+                    <div class="col-sm-2" style="text-align: right;">
+                        <input type="text" class="form-control" id="category_name" name="category_name" value="{$searchInfo.category_name}" onclick="showTreeView();" placeholder="请选择类别" readonly>
+                        <input type="hidden" id="parent_id" name="cat_id" value="{$searchInfo.cat_id}"/>
+                        <div class="dropdown-menu" id="treeview" style="display: none;margin-left:15px;"></div>
+                    </div>
+                    <div class="col-sm-3" style="text-align: right;">
+                        <div class='input-group'>
+                            <input type="text" class="form-control" id="title" name="title" value="{$searchInfo.title}" placeholder="请输入标题">
+                            <span class='input-group-btn'>
+                                <button type="submit" class="btn btn-success" id="searchInfo-btn" style="height: 34px;">
+                                    <span class="glyphicon glyphicon-search"></span> 搜索
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="table_content">
+            <table class="table table-hover">
+                <tr>
+                    <th>全选</th>
+                    <th><input type="checkbox" name="allChecked" onclick="setAllChecked(this);"/></th>
+                    <th>标题</th>
+                    <th>类别</th>
+                    <th>发布人</th>
+                    <th>发布时间</th>
+                    <th>操作</th>
+                </tr>
+                <notempty name="infoList">
+                    <foreach name="infoList" item="v" key="k">
+                        <tr class="tr">
+                            <td>{:(I('get.p'))?((I('get.p')-1)*C('PAGE_SIZE')+$k+1):($k+1)}</td>
+                            <td>
+                        <if condition="$v.address_id eq $address_id||$address_id eq 0">
+                            <input type="checkbox" name="rowChecked" value="{$v.id}"/>
+                            <else/><input type="checkbox" name="" value="" disabled="disabled"/>
+                        </if>
+                        </td>
+                        <td>
+                        <if condition="$v.is_publish eq 0">
+                            <span class="label label-default" style="padding: 4px">未发布</span>
+                            <else/>
+                            <span class="label label-success" style="padding: 4px">已发布</span>
+                        </if>
+                        <a href="__CONTROLLER__/detail/id/{$v.id}">{$v.title}</a>
+
+                        </td>
+                        <td>{$v.cat_name}</td>
+                        <td>
+                        <if condition="$v.realname eq '' || $v.realname eq null">{$v.usr}
+                            <else/>{$v.realname}
+                        </if>
+                        </td>
+                        <td>{$v.add_time}</td>
+                        <td>
+                            <div>
+                                <button class="btn btn-default edit-btn editZxwInfo" onclick="javascript:void(window.location.href = '__CONTROLLER__/edit/id/{$v.id}')">
+                                    <span class="glyphicon glyphicon-edit"></span> 编辑
+                                </button>
+                                <button class="btn btn-default pubZxwInfo" onclick="pubInfoLayer({$v.id})">
+                                    <span class="glyphicon glyphicon-bullhorn"></span> 发布
+                                </button>
+                            </div>
+                        </td>
+                        </tr>
+                    </foreach>
+                </notempty>
+
+            </table>
+            <empty name="infoList">
+                <div style="text-align: center;">暂无数据</div>
+            </empty>
+            <noempty name="infoList">
+                <div style="text-align: center;">{$page}</div>
+            </noempty>
+
+        </div>
+    </body>
+</html>

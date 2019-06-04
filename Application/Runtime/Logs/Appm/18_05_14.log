@@ -1,0 +1,224 @@
+[ 2018-05-14T14:28:34+08:00 ] 127.0.0.1 /index.php/Appm/Login/getApplyKeyCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `qs_sqk_sys_userapp_info` WHERE ( tel="13521447599" ) LIMIT 1   [ RunTime:0.0031s ]
+NOTIC: [2] Creating default object from empty value E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Appm\Controller\SmsController.class.php 第 44 行.
+NOTIC: [2] Creating default object from empty value E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Appm\Controller\SmsController.class.php 第 49 行.
+
+[ 2018-05-14T14:30:23+08:00 ] 127.0.0.1 /index.php/Appm/Login/getApplyKeyCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `qs_sqk_sys_userapp_info` WHERE ( tel="13521447599" ) LIMIT 1   [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: flag E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Appm\Controller\LoginController.class.php 第 133 行.
+
+[ 2018-05-14T14:35:25+08:00 ] 127.0.0.1 /index.php/Appm/Login/getApplyKeyCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `qs_sqk_sys_userapp_info` WHERE ( tel="13521447599" ) LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: flag E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Appm\Controller\LoginController.class.php 第 133 行.
+
+[ 2018-05-14T15:52:23+08:00 ] 127.0.0.1 /index.php/Appm/Login/getApplyKeyCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `qs_sqk_sys_userapp_info` WHERE ( tel="13521447599" ) LIMIT 1   [ RunTime:0.0034s ]
+NOTIC: [8] Undefined variable: flag E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Appm\Controller\LoginController.class.php 第 155 行.
+
+[ 2018-05-14T15:52:23+08:00 ] 127.0.0.1 /index.php/Appm/Login/getApplyKeyCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `qs_sqk_sys_userapp_info` WHERE ( tel="13521447599" ) LIMIT 1   [ RunTime:0.0046s ]
+NOTIC: [8] Undefined variable: flag E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Appm\Controller\LoginController.class.php 第 155 行.
+
+[ 2018-05-14T16:03:12+08:00 ] 127.0.0.1 /index.php/Appm/Login/addUserappInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: tx_path E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Appm\Controller\LoginController.class.php 第 195 行.
+NOTIC: [8] Undefined index: nickname E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Appm\Controller\LoginController.class.php 第 196 行.
+NOTIC: [8] Undefined index: wx_num E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Appm\Controller\LoginController.class.php 第 197 行.
+NOTIC: [8] Undefined index: validate E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0058s ]
+ERR: 1048:Le champ 'tx_path' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `qs_sqk_sys_userapp_info` (`tel`,`realname`,`gender`,`birthday`,`address_id`,`tx_path`,`nickname`,`wx_num`,`usr`,`qrcode_path`) VALUES ('13521447896','哈哈哈','0','1922-12-12','3',NULL,NULL,NULL,'13521447896','Public/Temfile/qrcode/20180514160311-2488.png')
+ERR: 1048:Le champ 'tx_path' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `qs_sqk_sys_userapp_info` (`tel`,`realname`,`gender`,`birthday`,`address_id`,`tx_path`,`nickname`,`wx_num`,`usr`,`qrcode_path`) VALUES ('13521447896','哈哈哈','0','1922-12-12','3',NULL,NULL,NULL,'13521447896','Public/Temfile/qrcode/20180514160311-2488.png')
+
+[ 2018-05-14T16:03:34+08:00 ] 127.0.0.1 /index.php/Appm/Login/addUserappInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0018s ]
+SQL: INSERT INTO `qs_sqk_sys_userapp_info` (`tel`,`realname`,`gender`,`birthday`,`address_id`,`tx_path`,`nickname`,`wx_num`,`usr`,`qrcode_path`) VALUES ('13521447896','哈哈哈','0','1922-12-12','3','http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKHRoX9H0IXWmiaxlXzb3O9ILcicFoZqRjRZWe0xKk0bdPqiag4shDYyXw94TL6pDRiaV4svlVlKraBnw/132','忘忧草','oadwq03_g0B0lvOGQG6Id5vUIwNQ','13521447896','Public/Temfile/qrcode/20180514160333-8509.png') [ RunTime:0.0031s ]
+
+[ 2018-05-14T16:05:09+08:00 ] 127.0.0.1 /index.php/Appm/Login/addUserappInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0019s ]
+SQL: INSERT INTO `qs_sqk_sys_userapp_info` (`tel`,`realname`,`gender`,`birthday`,`address_id`,`tx_path`,`nickname`,`wx_num`,`usr`,`qrcode_path`) VALUES ('13521447896','哈哈哈','0','1922-12-12','3','http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKHRoX9H0IXWmiaxlXzb3O9ILcicFoZqRjRZWe0xKk0bdPqiag4shDYyXw94TL6pDRiaV4svlVlKraBnw/132','忘忧草','oadwq03_g0B0lvOGQG6Id5vUIwNQ','13521447896','Public/Temfile/qrcode/20180514160509-7482.png') [ RunTime:0.0023s ]
+
+[ 2018-05-14T16:22:57+08:00 ] 127.0.0.1 /index.php/Appm/Login/getApplyKeyCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `qs_sqk_sys_userapp_info` WHERE ( tel="13521447599" ) LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: flag E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Appm\Controller\LoginController.class.php 第 157 行.
+
+[ 2018-05-14T16:29:27+08:00 ] 127.0.0.1 /index.php/Appm/Login/getApplyKeyCodeCheckExist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `qs_sqk_sys_userapp_info` WHERE ( tel="13521447599" ) LIMIT 1   [ RunTime:0.0031s ]
+NOTIC: [2] Creating default object from empty value E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Appm\Controller\SmsController.class.php 第 44 行.
+NOTIC: [2] Creating default object from empty value E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Appm\Controller\SmsController.class.php 第 49 行.
+
+[ 2018-05-14T16:34:57+08:00 ] 127.0.0.1 /index.php/Appm/Login/getApplyKeyCodeCheckExist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qs_sqk_sys_userapp_info` WHERE ( tel="13521447599" ) LIMIT 1   [ RunTime:0.0028s ]
+NOTIC: [2] Creating default object from empty value E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Appm\Controller\SmsController.class.php 第 44 行.
+NOTIC: [2] Creating default object from empty value E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Appm\Controller\SmsController.class.php 第 49 行.
+
+[ 2018-05-14T16:35:08+08:00 ] 127.0.0.1 /index.php/Appm/Login/bindingUserappInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0048s ]
+SQL: UPDATE `qs_sqk_sys_userapp_info` SET `tel`='',`tx_path`='http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKHRoX9H0IXWmiaxlXzb3O9ILcicFoZqRjRZWe0xKk0bdPqiag4shDYyXw94TL6pDRiaV4svlVlKraBnw/132',`nickname`='忘忧草',`wx_num`='oadwq03_g0B0lvOGQG6Id5vUIwNQ' WHERE `tel` = '' [ RunTime:0.0015s ]
+
+[ 2018-05-14T16:35:43+08:00 ] 127.0.0.1 /index.php/Appm/Login/bindingUserappInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0058s ]
+SQL: UPDATE `qs_sqk_sys_userapp_info` SET `tel`='',`tx_path`='http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKHRoX9H0IXWmiaxlXzb3O9ILcicFoZqRjRZWe0xKk0bdPqiag4shDYyXw94TL6pDRiaV4svlVlKraBnw/132',`nickname`='忘忧草',`wx_num`='oadwq03_g0B0lvOGQG6Id5vUIwNQ' WHERE `tel` = '' [ RunTime:0.0015s ]
+
+[ 2018-05-14T16:37:46+08:00 ] 127.0.0.1 /index.php/Appm/Login/bindingUserappInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0057s ]
+SQL: UPDATE `qs_sqk_sys_userapp_info` SET `tel`='',`tx_path`='http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKHRoX9H0IXWmiaxlXzb3O9ILcicFoZqRjRZWe0xKk0bdPqiag4shDYyXw94TL6pDRiaV4svlVlKraBnw/132',`nickname`='忘忧草',`wx_num`='oadwq03_g0B0lvOGQG6Id5vUIwNQ' WHERE `tel` = '' [ RunTime:0.0022s ]
+
+[ 2018-05-14T16:38:05+08:00 ] 127.0.0.1 /index.php/Appm/Login/bindingUserappInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0045s ]
+SQL: UPDATE `qs_sqk_sys_userapp_info` SET `tel`='13521447599',`tx_path`='http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKHRoX9H0IXWmiaxlXzb3O9ILcicFoZqRjRZWe0xKk0bdPqiag4shDYyXw94TL6pDRiaV4svlVlKraBnw/132',`nickname`='忘忧草',`wx_num`='oadwq03_g0B0lvOGQG6Id5vUIwNQ' WHERE `tel` = '13521447599' [ RunTime:0.0036s ]
+
+[ 2018-05-14T16:39:11+08:00 ] 127.0.0.1 /index.php/Appm/Login/bindingUserappInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0068s ]
+SQL: UPDATE `qs_sqk_sys_userapp_info` SET `tel`='13521447599',`tx_path`='http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKHRoX9H0IXWmiaxlXzb3O9ILcicFoZqRjRZWe0xKk0bdPqiag4shDYyXw94TL6pDRiaV4svlVlKraBnw/132',`nickname`='忘忧草',`wx_num`='oadwq03_g0B0lvOGQG6Id5vUIwNQ' WHERE `tel` = '13521447599' [ RunTime:0.0017s ]
+
+[ 2018-05-14T16:39:22+08:00 ] 127.0.0.1 /index.php/Appm/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0016s ]
+
+[ 2018-05-14T16:39:22+08:00 ] 127.0.0.1 /index.php/Appm/Activity/getList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_cat` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( is_enable=1 )  [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Appm\Controller\ActivityController.class.php 第 380 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_info` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qs_sqk_activ_info` WHERE `is_publish` = 1 AND `cat_id` IN ('0','1','2') ORDER BY id desc LIMIT 4   [ RunTime:0.0033s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_activ_info` WHERE `is_publish` = 1 AND `cat_id` IN ('0','1','2') LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `qs_sqk_activ_info` WHERE ( id=13 ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_all_attach` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `qs_sqk_sys_all_attach` WHERE ( module_name="activity" and module_info_id=13 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qs_sqk_activ_info` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qs_sqk_sys_all_attach` WHERE ( module_name="activity" and module_info_id=12 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qs_sqk_activ_info` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `qs_sqk_sys_all_attach` WHERE ( module_name="activity" and module_info_id=11 )  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qs_sqk_activ_info` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `qs_sqk_sys_all_attach` WHERE ( module_name="activity" and module_info_id=10 )  [ RunTime:0.0051s ]
+
+[ 2018-05-14T16:39:22+08:00 ] 127.0.0.1 /index.php/Appm/login/checkIsLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_notice_cat` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `qs_sqk_notice_cat` WHERE ( is_enable=1 )  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Appm\Controller\NoticeController.class.php 第 180 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_notice_info` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_notice_info` WHERE ( is_publish=1 and read_ids not like "%,106,%" and cat_id in (0,1,2,3) ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_cat` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( is_enable=1 )  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Appm\Controller\ActivityController.class.php 第 380 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_info` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_activ_info` WHERE ( is_publish=1 and read_ids not like "%,106,%" and cat_id in (0,1,2) ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2018-05-14T17:29:18+08:00 ] 127.0.0.1 /index.php/appm/Index/perfect_info?tel=18610700082
+ERR: 非法操作:perfect_info
+

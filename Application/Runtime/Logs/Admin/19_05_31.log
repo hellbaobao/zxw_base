@@ -1,0 +1,1779 @@
+[ 2019-05-31T16:32:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0326s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: user_id E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\IndexController.class.php 第 25 行.
+
+[ 2019-05-31T16:32:57+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2019-05-31T16:32:57+08:00 ] 127.0.0.1 /index.php/Admin/login/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2019-05-31T16:32:57+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: return E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\LoginController.class.php 第 71 行.
+
+[ 2019-05-31T16:32:57+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0217s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0169s ]
+NOTIC: [8] Undefined index: user_id E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysPrivInfoController.class.php 第 103 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2019-05-31T16:33:10+08:00 ] 127.0.0.1 /index.php/Admin/Login/loginSys
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0484s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( binary usr="super" and pwd="592d510020d3eacdc3d5c89e2e148f7467de3e82" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Controller\SysUserInfoController::getData() should be compatible with Admin\Controller\BaseDBController::getData($model, $id) E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysUserInfoController.class.php 第 14 行.
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0288s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Common\functions.php 第 1477 行.
+SQL: UPDATE `zxw_zk_sys_user_info` SET `last_ip`='127.0.0.1',`last_login_time`='2019-05-31 16:33:09' WHERE ( id=1 ) [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_action_log` [ RunTime:0.0368s ]
+SQL: INSERT INTO `zxw_zk_sys_action_log` (`c_name`,`a_name`,`action_info`,`user_name`,`ip`) VALUES ('login','loginSys','登录系统','管理员','127.0.0.1') [ RunTime:0.0007s ]
+
+[ 2019-05-31T16:33:10+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: sys_name E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined index: sys_name E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined index: sys_name E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\IndexController.class.php 第 41 行.
+NOTIC: [8] Undefined index: sys_name E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\IndexController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_cat` WHERE ( parent_id=0 and sys_name<>"menuSet" ) ORDER BY id asc  [ RunTime:0.0182s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_cat` WHERE ( parent_id=2 and sys_name<>"menu" ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_cat` WHERE ( parent_id=6 and sys_name<>"menu" ) ORDER BY id asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2019-05-31T16:33:10+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant SYSTEM_TOKEN - assumed 'SYSTEM_TOKEN' E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\LoginController.class.php 第 50 行.
+
+[ 2019-05-31T16:33:10+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0061s ]
+SQL: SELECT `pri_value` FROM `zxw_zk_sys_priv_info`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: return E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysPrivInfoController.class.php 第 118 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2019-05-31T16:33:10+08:00 ] 127.0.0.1 /index.php/Admin/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012259s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_notice_info` [ RunTime:0.0321s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zxw_zk_notice_info` WHERE ( is_publish=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: visit E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\IndexController.class.php 第 204 行.
+NOTIC: [8] Undefined variable: visit E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\IndexController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_notice_cat` [ RunTime:0.0521s ]
+SQL: SELECT * FROM `zxw_zk_notice_cat` WHERE ( is_enable=1 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: str E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\IndexController.class.php 第 95 行.
+SQL: SELECT `id`,`title`,`add_time`,`cat_id`,`user_id`,`address_id` FROM `zxw_zk_notice_info` WHERE ( cat_id in (0,12) and is_publish=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zxw_zk_notice_cat` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: appt_learn E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2019-05-31T16:33:10+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant SYSTEM_TOKEN - assumed 'SYSTEM_TOKEN' E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\LoginController.class.php 第 50 行.
+
+[ 2019-05-31T16:33:10+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0053s ]
+SQL: SELECT `pri_value` FROM `zxw_zk_sys_priv_info`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: return E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysPrivInfoController.class.php 第 118 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2019-05-31T16:33:12+08:00 ] 127.0.0.1 /index.php/Admin/NoticeCat/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_notice_cat` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_notice_info` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `zxw_zk_notice_cat` WHERE ( parent_id=0 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zxw_zk_notice_cat` WHERE ( parent_id=12 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: page E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Runtime\Cache\Admin\d784fba9da35225db27c9cea5e526b10.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2019-05-31T16:33:12+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0056s ]
+SQL: SELECT `pri_value` FROM `zxw_zk_sys_priv_info`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: return E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysPrivInfoController.class.php 第 118 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2019-05-31T16:33:12+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant SYSTEM_TOKEN - assumed 'SYSTEM_TOKEN' E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\LoginController.class.php 第 50 行.
+
+[ 2019-05-31T16:33:13+08:00 ] 127.0.0.1 /index.php/Admin/NoticeInfo/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0506s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_notice_cat` [ RunTime:0.0488s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_notice_info` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_all_attach` [ RunTime:0.0330s ]
+NOTIC: [8] Undefined variable: where E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\NoticeInfoController.class.php 第 65 行.
+NOTIC: [8] Undefined variable: pageCondition E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\NoticeInfoController.class.php 第 65 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zxw_zk_notice_info` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Common\Common\function.php 第 119 行.
+SQL: SELECT zxw_zk_notice_info.*,zxw_zk_notice_cat.cat_name,zxw_zk_sys_user_info.usr,zxw_zk_sys_user_info.realname FROM `zxw_zk_notice_info` left join zxw_zk_notice_cat on zxw_zk_notice_info.cat_id = zxw_zk_notice_cat.id left join zxw_zk_sys_user_info on zxw_zk_notice_info.user_id = zxw_zk_sys_user_info.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: address_id E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Runtime\Cache\Admin\f65e3418d95007dd78d6e92dde8a5ff3.php 第 60 行.
+NOTIC: [8] Undefined variable: address_id E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Runtime\Cache\Admin\f65e3418d95007dd78d6e92dde8a5ff3.php 第 60 行.
+NOTIC: [8] Undefined variable: address_id E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Runtime\Cache\Admin\f65e3418d95007dd78d6e92dde8a5ff3.php 第 60 行.
+NOTIC: [8] Undefined variable: address_id E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Runtime\Cache\Admin\f65e3418d95007dd78d6e92dde8a5ff3.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2019-05-31T16:33:13+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant SYSTEM_TOKEN - assumed 'SYSTEM_TOKEN' E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\LoginController.class.php 第 50 行.
+
+[ 2019-05-31T16:33:13+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0050s ]
+SQL: SELECT `pri_value` FROM `zxw_zk_sys_priv_info`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: return E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysPrivInfoController.class.php 第 118 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2019-05-31T16:33:17+08:00 ] 127.0.0.1 /index.php/Admin/Socket/handAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2019-05-31T16:33:17+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant SYSTEM_TOKEN - assumed 'SYSTEM_TOKEN' E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\LoginController.class.php 第 50 行.
+
+[ 2019-05-31T16:33:17+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0055s ]
+SQL: SELECT `pri_value` FROM `zxw_zk_sys_priv_info`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: return E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysPrivInfoController.class.php 第 118 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2019-05-31T16:33:28+08:00 ] 127.0.0.1 /index.php/Admin/SysUserGroup/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zxw_zk_sys_user_group` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2019-05-31T16:33:28+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant SYSTEM_TOKEN - assumed 'SYSTEM_TOKEN' E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\LoginController.class.php 第 50 行.
+
+[ 2019-05-31T16:33:29+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0058s ]
+SQL: SELECT `pri_value` FROM `zxw_zk_sys_priv_info`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: return E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysPrivInfoController.class.php 第 118 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2019-05-31T16:33:29+08:00 ] 127.0.0.1 /index.php/Admin/SysPrivInfo/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zxw_zk_sys_priv_info` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT zxw_zk_sys_priv_info.*,zxw_zk_sys_priv_cat.cat_name FROM `zxw_zk_sys_priv_info` left join zxw_zk_sys_priv_cat on zxw_zk_sys_priv_info.cat_id = zxw_zk_sys_priv_cat.id  ORDER BY zxw_zk_sys_priv_cat.parent_id asc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2019-05-31T16:33:30+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant SYSTEM_TOKEN - assumed 'SYSTEM_TOKEN' E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\LoginController.class.php 第 50 行.
+
+[ 2019-05-31T16:33:30+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0052s ]
+SQL: SELECT `pri_value` FROM `zxw_zk_sys_priv_info`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: return E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysPrivInfoController.class.php 第 118 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2019-05-31T16:33:31+08:00 ] 127.0.0.1 /index.php/Admin/SysPrivInfo/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zxw_zk_sys_priv_info` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT zxw_zk_sys_priv_info.*,zxw_zk_sys_priv_cat.cat_name FROM `zxw_zk_sys_priv_info` left join zxw_zk_sys_priv_cat on zxw_zk_sys_priv_info.cat_id = zxw_zk_sys_priv_cat.id  ORDER BY zxw_zk_sys_priv_cat.parent_id asc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2019-05-31T16:33:31+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant SYSTEM_TOKEN - assumed 'SYSTEM_TOKEN' E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\LoginController.class.php 第 50 行.
+
+[ 2019-05-31T16:33:31+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0054s ]
+SQL: SELECT `pri_value` FROM `zxw_zk_sys_priv_info`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: return E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysPrivInfoController.class.php 第 118 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2019-05-31T16:33:32+08:00 ] 127.0.0.1 /index.php/Admin/SysPrivCat/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_cat` WHERE ( parent_id=0 ) ORDER BY id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_cat` WHERE ( parent_id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=7 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=8 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_cat` WHERE ( parent_id=6 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=40 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=20 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=21 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=22 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=23 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=24 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=25 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=35 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_cat` WHERE ( parent_id=26 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=27 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: page E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Runtime\Cache\Admin\57dffe3314e5e38830dedd39ea733e14.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2019-05-31T16:33:32+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant SYSTEM_TOKEN - assumed 'SYSTEM_TOKEN' E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\LoginController.class.php 第 50 行.
+
+[ 2019-05-31T16:33:32+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0052s ]
+SQL: SELECT `pri_value` FROM `zxw_zk_sys_priv_info`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: return E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysPrivInfoController.class.php 第 118 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2019-05-31T16:33:33+08:00 ] 127.0.0.1 /index.php/Admin/SysPrivInfo/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zxw_zk_sys_priv_info` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT zxw_zk_sys_priv_info.*,zxw_zk_sys_priv_cat.cat_name FROM `zxw_zk_sys_priv_info` left join zxw_zk_sys_priv_cat on zxw_zk_sys_priv_info.cat_id = zxw_zk_sys_priv_cat.id  ORDER BY zxw_zk_sys_priv_cat.parent_id asc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2019-05-31T16:33:34+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant SYSTEM_TOKEN - assumed 'SYSTEM_TOKEN' E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\LoginController.class.php 第 50 行.
+
+[ 2019-05-31T16:33:34+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0051s ]
+SQL: SELECT `pri_value` FROM `zxw_zk_sys_priv_info`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: return E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysPrivInfoController.class.php 第 118 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2019-05-31T16:33:34+08:00 ] 127.0.0.1 /index.php/Admin/SysUserGroup/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zxw_zk_sys_user_group` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2019-05-31T16:33:34+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant SYSTEM_TOKEN - assumed 'SYSTEM_TOKEN' E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\LoginController.class.php 第 50 行.
+
+[ 2019-05-31T16:33:34+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0050s ]
+SQL: SELECT `pri_value` FROM `zxw_zk_sys_priv_info`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: return E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysPrivInfoController.class.php 第 118 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2019-05-31T16:33:35+08:00 ] 127.0.0.1 /index.php/Admin/SysUserInfo/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+NOTIC: [2048] Declaration of Admin\Controller\SysUserInfoController::getData() should be compatible with Admin\Controller\BaseDBController::getData($model, $id) E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysUserInfoController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined variable: where E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysUserInfoController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: pageCondition E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysUserInfoController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zxw_zk_sys_user_info` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Common\Common\function.php 第 119 行.
+SQL: SELECT zxw_zk_sys_user_info.*,zxw_zk_sys_user_group.cat_name FROM `zxw_zk_sys_user_info` left join zxw_zk_sys_user_group on zxw_zk_sys_user_info.cat_id = zxw_zk_sys_user_group.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2019-05-31T16:33:35+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant SYSTEM_TOKEN - assumed 'SYSTEM_TOKEN' E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\LoginController.class.php 第 50 行.
+
+[ 2019-05-31T16:33:35+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0054s ]
+SQL: SELECT `pri_value` FROM `zxw_zk_sys_priv_info`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: return E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysPrivInfoController.class.php 第 118 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2019-05-31T16:33:38+08:00 ] 127.0.0.1 /index.php/Admin/Allattach/delAttachs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_all_attach` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zxw_zk_sys_all_attach` WHERE ( module_info_id=0 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2019-05-31T16:33:39+08:00 ] 127.0.0.1 /index.php/Admin/Socket/handAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2019-05-31T16:33:39+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant SYSTEM_TOKEN - assumed 'SYSTEM_TOKEN' E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\LoginController.class.php 第 50 行.
+
+[ 2019-05-31T16:33:39+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0054s ]
+SQL: SELECT `pri_value` FROM `zxw_zk_sys_priv_info`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: return E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysPrivInfoController.class.php 第 118 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2019-05-31T16:33:40+08:00 ] 127.0.0.1 /index.php/Admin/Allattach/delAttachs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_all_attach` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `zxw_zk_sys_all_attach` WHERE ( module_info_id=0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2019-05-31T16:33:42+08:00 ] 127.0.0.1 /index.php/Admin/NoticeCat/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_notice_cat` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_notice_info` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `zxw_zk_notice_cat` WHERE ( parent_id=0 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zxw_zk_notice_cat` WHERE ( parent_id=12 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined variable: page E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Runtime\Cache\Admin\d784fba9da35225db27c9cea5e526b10.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2019-05-31T16:33:42+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant SYSTEM_TOKEN - assumed 'SYSTEM_TOKEN' E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\LoginController.class.php 第 50 行.
+
+[ 2019-05-31T16:33:42+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0055s ]
+SQL: SELECT `pri_value` FROM `zxw_zk_sys_priv_info`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: return E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysPrivInfoController.class.php 第 118 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2019-05-31T16:33:43+08:00 ] 127.0.0.1 /index.php/Admin/NoticeInfo/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_notice_cat` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_notice_info` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_all_attach` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined variable: where E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\NoticeInfoController.class.php 第 65 行.
+NOTIC: [8] Undefined variable: pageCondition E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\NoticeInfoController.class.php 第 65 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zxw_zk_notice_info` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Common\Common\function.php 第 119 行.
+SQL: SELECT zxw_zk_notice_info.*,zxw_zk_notice_cat.cat_name,zxw_zk_sys_user_info.usr,zxw_zk_sys_user_info.realname FROM `zxw_zk_notice_info` left join zxw_zk_notice_cat on zxw_zk_notice_info.cat_id = zxw_zk_notice_cat.id left join zxw_zk_sys_user_info on zxw_zk_notice_info.user_id = zxw_zk_sys_user_info.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: address_id E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Runtime\Cache\Admin\f65e3418d95007dd78d6e92dde8a5ff3.php 第 60 行.
+NOTIC: [8] Undefined variable: address_id E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Runtime\Cache\Admin\f65e3418d95007dd78d6e92dde8a5ff3.php 第 60 行.
+NOTIC: [8] Undefined variable: address_id E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Runtime\Cache\Admin\f65e3418d95007dd78d6e92dde8a5ff3.php 第 60 行.
+NOTIC: [8] Undefined variable: address_id E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Runtime\Cache\Admin\f65e3418d95007dd78d6e92dde8a5ff3.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2019-05-31T16:33:43+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant SYSTEM_TOKEN - assumed 'SYSTEM_TOKEN' E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\LoginController.class.php 第 50 行.
+
+[ 2019-05-31T16:33:43+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0053s ]
+SQL: SELECT `pri_value` FROM `zxw_zk_sys_priv_info`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: return E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysPrivInfoController.class.php 第 118 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2019-05-31T16:33:44+08:00 ] 127.0.0.1 /index.php/Admin/NoticeCat/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_notice_cat` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_notice_info` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `zxw_zk_notice_cat` WHERE ( parent_id=0 ) ORDER BY id asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_notice_cat` WHERE ( parent_id=12 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: page E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Runtime\Cache\Admin\d784fba9da35225db27c9cea5e526b10.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2019-05-31T16:33:44+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant SYSTEM_TOKEN - assumed 'SYSTEM_TOKEN' E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\LoginController.class.php 第 50 行.
+
+[ 2019-05-31T16:33:44+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0054s ]
+SQL: SELECT `pri_value` FROM `zxw_zk_sys_priv_info`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: return E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysPrivInfoController.class.php 第 118 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2019-05-31T16:33:47+08:00 ] 127.0.0.1 /index.php/Admin/SysPrivCat/showList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_cat` WHERE ( parent_id=0 ) ORDER BY id asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_cat` WHERE ( parent_id=2 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=7 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=8 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_cat` WHERE ( parent_id=6 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=40 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=20 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=21 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=22 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=23 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=24 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=25 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=35 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_cat` WHERE ( parent_id=26 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zxw_zk_sys_priv_info` WHERE ( cat_id=27 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: page E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Runtime\Cache\Admin\57dffe3314e5e38830dedd39ea733e14.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2019-05-31T16:33:47+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant SYSTEM_TOKEN - assumed 'SYSTEM_TOKEN' E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\LoginController.class.php 第 50 行.
+
+[ 2019-05-31T16:33:47+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0059s ]
+SQL: SELECT `pri_value` FROM `zxw_zk_sys_priv_info`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: return E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysPrivInfoController.class.php 第 118 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2019-05-31T16:33:58+08:00 ] 127.0.0.1 /index.php/Admin/index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_notice_info` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zxw_zk_notice_info` WHERE ( is_publish=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: visit E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\IndexController.class.php 第 204 行.
+NOTIC: [8] Undefined variable: visit E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\IndexController.class.php 第 205 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_notice_cat` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `zxw_zk_notice_cat` WHERE ( is_enable=1 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: str E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\IndexController.class.php 第 95 行.
+SQL: SELECT `id`,`title`,`add_time`,`cat_id`,`user_id`,`address_id` FROM `zxw_zk_notice_info` WHERE ( cat_id in (0,12) and is_publish=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zxw_zk_notice_cat` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: appt_learn E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Runtime\Cache\Admin\b0f0b709690a72033d17719e8059053c.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2019-05-31T16:33:58+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant SYSTEM_TOKEN - assumed 'SYSTEM_TOKEN' E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\LoginController.class.php 第 50 行.
+
+[ 2019-05-31T16:33:58+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0052s ]
+SQL: SELECT `pri_value` FROM `zxw_zk_sys_priv_info`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: return E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysPrivInfoController.class.php 第 118 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2019-05-31T16:34:03+08:00 ] 127.0.0.1 /index.php/Admin/NoticeInfo/noticeDetail/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_notice_cat` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_notice_info` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_all_attach` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `zxw_zk_notice_info` WHERE `id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zxw_zk_sys_all_attach` WHERE `module_info_id` = 3 AND `module_name` = 'notice' ORDER BY id desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2019-05-31T16:34:03+08:00 ] 127.0.0.1 /index.php/admin/login/checkIsLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant SYSTEM_TOKEN - assumed 'SYSTEM_TOKEN' E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\LoginController.class.php 第 50 行.
+
+[ 2019-05-31T16:34:03+08:00 ] 127.0.0.1 /index.php/admin/SysPrivInfo/getPriviledges
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_cat` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_priv_info` [ RunTime:0.0054s ]
+SQL: SELECT `pri_value` FROM `zxw_zk_sys_priv_info`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_info` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_info` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_user_group` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `zxw_zk_sys_user_group` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: return E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\SysPrivInfoController.class.php 第 118 行.
+NOTIC: [2] Cannot modify header information - headers already sent E:\phpStudy\PHPTutorial\WWW\zxw_zk\ThinkPHP\Library\Think\Controller.class.php 第 215 行.
+
+[ 2019-05-31T17:00:14+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [2] copy(./Public/temp/CatController.class.php): failed to open stream: No such file or directory E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2019-05-31T17:00:26+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+NOTIC: [2] copy(./Public/temp/CatController.class.php): failed to open stream: No such file or directory E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2019-05-31T17:00:33+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+NOTIC: [2] copy(./Public/temp/CatController.class.php): failed to open stream: No such file or directory E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2019-05-31T17:00:34+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0004s ]
+NOTIC: [2] copy(./Public/temp/CatController.class.php): failed to open stream: No such file or directory E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008740s ]
+
+[ 2019-05-31T17:00:51+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+NOTIC: [2] copy(./Public/temp/CatController.class.php): failed to open stream: No such file or directory E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2019-05-31T17:01:17+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+NOTIC: [2] copy(./Public/temp/CatController.class.php): failed to open stream: No such file or directory E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2019-05-31T17:01:18+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [2] copy(./Public/temp/CatController.class.php): failed to open stream: No such file or directory E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2019-05-31T17:01:20+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [2] copy(./Public/temp/CatController.class.php): failed to open stream: No such file or directory E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2019-05-31T17:01:21+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+NOTIC: [2] copy(./Public/temp/CatController.class.php): failed to open stream: No such file or directory E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2019-05-31T17:01:22+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [2] copy(./Public/temp/CatController.class.php): failed to open stream: No such file or directory E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005168s ]
+
+[ 2019-05-31T17:01:31+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [2] copy(./Public/temp/CatController.class.php): failed to open stream: No such file or directory E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2019-05-31T17:01:32+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+NOTIC: [2] copy(./Public/temp/CatController.class.php): failed to open stream: No such file or directory E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2019-05-31T17:04:53+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2019-05-31T17:06:44+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC/c/zxw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: c E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: a E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2019-05-31T17:07:11+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC/c/zxw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: c E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: a E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2019-05-31T17:07:12+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC/c/zxw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: c E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: a E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007481s ]
+
+[ 2019-05-31T17:07:41+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC/c/zxw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: c E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: a E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2019-05-31T17:07:42+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC/c/zxw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: c E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: a E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2019-05-31T17:08:03+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC/c/zxw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0215s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: c E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: a E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002466s ]
+
+[ 2019-05-31T17:08:04+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC/c/zxw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: c E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: a E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002679s ]
+
+[ 2019-05-31T17:08:09+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC/c/zxw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: c E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: a E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2019-05-31T17:08:29+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC/c/zxw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: c E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: a E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2019-05-31T17:08:30+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC/c/zxw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: c E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: a E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2019-05-31T17:08:33+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC/c/zxw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: c E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: a E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001480s ]
+
+[ 2019-05-31T17:09:37+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC/c/zxw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1234 E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: a E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006940s ]
+
+[ 2019-05-31T17:09:39+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC/c/zxw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1234 E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: a E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2019-05-31T17:09:49+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC/?=c/zxw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1234 E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: a E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2019-05-31T17:09:57+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC/?c=zxw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1234 E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: a E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2019-05-31T17:10:01+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC/?c=zxw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1234 E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: a E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2019-05-31T17:10:07+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC?c=zxw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004372s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1234 E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: a E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2019-05-31T17:10:19+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC.html?c=zxw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0216s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1234 E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: a E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2019-05-31T17:38:10+08:00 ] 127.0.0.1 /index.php/Admin/Manage/createC.html?c=zxw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `zxw_zk_sys_config_def` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `zxw_zk_sys_config_def`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1234 E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 22 行.
+NOTIC: [8] Undefined variable: a E:\phpStudy\PHPTutorial\WWW\zxw_zk\Application\Admin\Controller\ManageController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+

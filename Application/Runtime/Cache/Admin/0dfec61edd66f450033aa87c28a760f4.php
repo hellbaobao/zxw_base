@@ -1,0 +1,281 @@
+<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <?php echo (ADMIN_META); echo (ADMIN_CSS); echo (ADMIN_COMPATIBLE); echo (ADMIN_JS); echo ($Assigndata); ?>
+        <!--自定义样式及脚本放于此处-->
+        <link rel="stylesheet" href="/Public/admin/css/login.css">
+        <script type="text/javascript" src="/Public/admin/js/login/login.js"></script>
+        <?php echo (ANIMATION); ?>
+        <title><?php echo ($config['system_name']); ?></title>
+        <style>
+            canvas {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                width: 100%;
+                height: 700px;
+                overflow: hidden;
+                z-index:2;
+            }</style>
+    </head>
+    <body>
+        <canvas></canvas>
+
+        <script>
+            (function () {
+
+                var canvas, ctx, circ, nodes, mouse, SENSITIVITY, SIBLINGS_LIMIT, DENSITY, NODES_QTY, ANCHOR_LENGTH, MOUSE_RADIUS;
+
+                // how close next node must be to activate connection (in px)
+                // shorter distance == better connection (line width)
+                SENSITIVITY = 100;
+                // note that siblings limit is not 'accurate' as the node can actually have more connections than this value that's because the node accepts sibling nodes with no regard to their current connections this is acceptable because potential fix would not result in significant visual difference 
+                // more siblings == bigger node
+                SIBLINGS_LIMIT = 10;
+                // default node margin
+                DENSITY = 50;
+                // total number of nodes used (incremented after creation)
+                NODES_QTY = 0;
+                // avoid nodes spreading
+                ANCHOR_LENGTH = 20;
+                // highlight radius
+                MOUSE_RADIUS = 200;
+
+                circ = 2 * Math.PI;
+                nodes = [];
+
+                canvas = document.querySelector('canvas');
+                resizeWindow();
+                mouse = {
+                    x: canvas.width / 2,
+                    y: canvas.height / 2
+                };
+                ctx = canvas.getContext('2d');
+                if (!ctx) {
+                    alert("Ooops! Your browser does not support canvas :'(");
+                }
+
+                function Node(x, y) {
+                    this.anchorX = x;
+                    this.anchorY = y;
+                    this.x = Math.random() * (x - (x - ANCHOR_LENGTH)) + (x - ANCHOR_LENGTH);
+                    this.y = Math.random() * (y - (y - ANCHOR_LENGTH)) + (y - ANCHOR_LENGTH);
+                    this.vx = Math.random() * 2 - 1;
+                    this.vy = Math.random() * 2 - 1;
+                    this.energy = Math.random() * 100;
+                    this.radius = Math.random();
+                    this.siblings = [];
+                    this.brightness = 0;
+                }
+
+                Node.prototype.drawNode = function () {
+                    var color = "rgba(255, 255, 255, " + this.brightness + ")";
+                    ctx.beginPath();
+                    ctx.arc(this.x, this.y, 2 * this.radius + 2 * this.siblings.length / SIBLINGS_LIMIT, 0, circ);
+                    ctx.fillStyle = color;
+                    ctx.fill();
+                };
+
+                Node.prototype.drawConnections = function () {
+                    for (var i = 0; i < this.siblings.length; i++) {
+                        var color = "rgba(255, 255, 255, " + this.brightness + ")";
+                        ctx.beginPath();
+                        ctx.moveTo(this.x, this.y);
+                        ctx.lineTo(this.siblings[i].x, this.siblings[i].y);
+                        ctx.lineWidth = 1 - calcDistance(this, this.siblings[i]) / SENSITIVITY;
+                        ctx.strokeStyle = color;
+                        ctx.stroke();
+                    }
+                };
+
+                Node.prototype.moveNode = function () {
+                    this.energy -= 2;
+                    if (this.energy < 1) {
+                        this.energy = Math.random() * 100;
+                        if (this.x - this.anchorX < -ANCHOR_LENGTH) {
+                            this.vx = Math.random() * 2;
+                        } else if (this.x - this.anchorX > ANCHOR_LENGTH) {
+                            this.vx = Math.random() * -2;
+                        } else {
+                            this.vx = Math.random() * 4 - 2;
+                        }
+                        if (this.y - this.anchorY < -ANCHOR_LENGTH) {
+                            this.vy = Math.random() * 2;
+                        } else if (this.y - this.anchorY > ANCHOR_LENGTH) {
+                            this.vy = Math.random() * -2;
+                        } else {
+                            this.vy = Math.random() * 4 - 2;
+                        }
+                    }
+                    this.x += this.vx * this.energy / 100;
+                    this.y += this.vy * this.energy / 100;
+                };
+
+                function initNodes() {
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    nodes = [];
+                    for (var i = DENSITY; i < canvas.width; i += DENSITY) {
+                        for (var j = DENSITY; j < canvas.height; j += DENSITY) {
+                            nodes.push(new Node(i, j));
+                            NODES_QTY++;
+                        }
+                    }
+                }
+
+                function calcDistance(node1, node2) {
+                    return Math.sqrt(Math.pow(node1.x - node2.x, 2) + (Math.pow(node1.y - node2.y, 2)));
+                }
+
+                function findSiblings() {
+                    var node1, node2, distance;
+                    for (var i = 0; i < NODES_QTY; i++) {
+                        node1 = nodes[i];
+                        node1.siblings = [];
+                        for (var j = 0; j < NODES_QTY; j++) {
+                            node2 = nodes[j];
+                            if (node1 !== node2) {
+                                distance = calcDistance(node1, node2);
+                                if (distance < SENSITIVITY) {
+                                    if (node1.siblings.length < SIBLINGS_LIMIT) {
+                                        node1.siblings.push(node2);
+                                    } else {
+                                        var node_sibling_distance = 0;
+                                        var max_distance = 0;
+                                        var s;
+                                        for (var k = 0; k < SIBLINGS_LIMIT; k++) {
+                                            node_sibling_distance = calcDistance(node1, node1.siblings[k]);
+                                            if (node_sibling_distance > max_distance) {
+                                                max_distance = node_sibling_distance;
+                                                s = k;
+                                            }
+                                        }
+                                        if (distance < max_distance) {
+                                            node1.siblings.splice(s, 1);
+                                            node1.siblings.push(node2);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                function redrawScene() {
+                    resizeWindow();
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    findSiblings();
+                    var i, node, distance;
+                    for (i = 0; i < NODES_QTY; i++) {
+                        node = nodes[i];
+                        distance = calcDistance({
+                            x: mouse.x,
+                            y: mouse.y
+                        }, node);
+                        if (distance < MOUSE_RADIUS) {
+                            node.brightness = 1 - distance / MOUSE_RADIUS;
+                        } else {
+                            node.brightness = 0;
+                        }
+                    }
+                    for (i = 0; i < NODES_QTY; i++) {
+                        node = nodes[i];
+                        if (node.brightness) {
+                            node.drawNode();
+                            node.drawConnections();
+                        }
+                        node.moveNode();
+                    }
+                    requestAnimationFrame(redrawScene);
+                }
+
+                function initHandlers() {
+                    document.addEventListener('resize', resizeWindow, false);
+                    canvas.addEventListener('mousemove', mousemoveHandler, false);
+                }
+
+                function resizeWindow() {
+                    canvas.width = window.innerWidth;
+                    canvas.height = window.innerHeight;
+                }
+
+                function mousemoveHandler(e) {
+                    mouse.x = e.clientX;
+                    mouse.y = e.clientY;
+                }
+
+                initHandlers();
+                initNodes();
+                redrawScene();
+
+            })();</script>
+        <input type="hidden" name="url" id="url" value="login">
+        <nav class="navbar navbar-inverse navbar-fixed-top b-header">
+            <div class="container-fluid">
+                <div class="navbar-header ">
+                    <div class="b-systitle" id="demo"><?php echo ($config['system_name']); ?></div>
+                </div>                
+            </div>
+        </nav>
+
+        <div class="container-fluid b-menu">
+            <div class="row">                
+                <div class="col-md-12 b-login-bg" >
+                    <div class="row" style="z-index:2;">
+                        <div class="col-xs-12 col-sm-6 b-login-div b-icon-computer"></div>
+                        <div class="col-xs-12 col-sm-6 b-login-div b-icon-login" style="z-index:3">
+                            <div class="b-login-area" >
+                                <div class="b-login-title ">
+                                    登&#12288;录
+                                </div>
+                                <div class="b-input-tr">
+                                    <div class="input-group input-group-lg b-input-border">
+                                        <span class="input-group-addon b-input-icon"><i class="glyphicon glyphicon-user"></i></span>
+                                        <input type="text" class="form-control" placeholder="请输入用户名" style="height: 50px;" id="loginUser">
+                                    </div>
+                                </div>
+                                <div class="b-input-tr">
+                                    <div class="input-group input-group-lg b-input-border">
+                                        <span class="input-group-addon b-input-icon"><i class="glyphicon glyphicon-lock"></i></span>
+                                        <input type="password" class="form-control" placeholder="请输入密码" style="height: 50px;" id="loginPwd">
+                                    </div>
+                                </div>
+                                <div class="b-input-tr">
+                                    <div class="input-group input-group-lg b-input-border">
+                                        <span class="input-group-addon b-input-icon"><i class="glyphicon glyphicon-star"></i></span>
+                                        <input type="text" class="form-control" placeholder="请输入验证码" style="height: 50px;" id="loginYzm">
+                                        <span class="input-group-addon" style="width: 140px;cursor: pointer;padding: 0px;" id="yzm">
+                                            <img class="verify "  alt="验证码" src="<?php echo U('Admin/login/verify_c',array());?>" title="点击刷新" onclick="changeValidate();"/>
+                                        </span>
+                                    </div>
+
+                                </div>
+                                <div class="b-input-tr">
+                                    <div class="alert alert-danger" style="display: none;" id="warning">
+                                        <i class="glyphicon glyphicon-exclamation-sign"></i>
+                                        <span id="warnMsg">错误！请进行一些更改。</span>
+                                    </div>
+                                    <div class="b-login-btn hvr-grow" onclick="subLogin()">
+                                        登&#12288;录
+                                    </div>
+                                </div>
+                                <div class="b-input-tr">
+                                    <div class="b-input-foot">
+                                        <!--<div class="b-input-foot-btn b-text-left" onclick="aHref('register')">注册</div>-->
+                                        <div class="b-input-foot-btn b-text-left">&#12288;&#12288;</div>
+                                        <div class="b-input-foot-btn b-text-right" onclick="aHref('findpwd')" id="findPwdBtn">忘记密码？</div>
+                                    </div>
+                                </div>
+                                <div class="b-input-tr"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">                
+                <div class="col-md-12 b-login-footer hvr-overline-from-center ">
+                    <?php echo ($config['copy_right']); ?>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

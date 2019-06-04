@@ -1,0 +1,258 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-2-24, 11:26:55
+    Author     : hellobao
+*/
+/*header*/
+.b-header{
+    background-color: #45c8dc;
+}
+.b-systitle{
+    color: #fff;
+    font-family: '微软雅黑';
+    font-size: 26px;
+    line-height: 26px;
+    margin: 18px 0 18px 30px;
+    /*background-color: red;*/
+}
+.b-top{
+    background-repeat: no-repeat;
+    background-position: left center;
+    text-indent: 8px;
+    color: #fff;
+    background-size: 18px 18px;
+}
+.b-icon-tix{
+    background-image: url('/Public/admin/img/index/tix.png');
+}
+.b-icon-xiaox{
+    background-image: url('/Public/admin/img/index/xiaox.png');
+}
+.b-icon-logout{
+    background-image: url('/Public/admin/img/index/logout.png');
+}
+.b-icon-user{
+    background-image: url('/Public/admin/img/index/user.png');
+}
+.b-icon-shome{
+    background-image: url('/Public/admin/img/index/shome.png');
+}
+.b-menu{
+    width: 100%;
+    height: auto;
+    /*background-color: gold;*/
+    margin-top: 63px;
+}
+.b-div-menu{
+    padding: 0px;
+    background-color: #3b4966;
+}
+.b-div-main{
+    overflow-x: hidden;
+    overflow-y: auot;
+    margin-bottom: 0px;
+}
+.b-right-title{
+    width: 100%;
+    height: 20px;
+    /*background-color: green;*/
+
+}
+.b-label{
+    color:#fff;
+    text-indent: 0px;
+}
+.b-main-title{
+    background-image: url('/Public/admin/img/index/clip.png');
+    background-repeat: no-repeat;
+    background-position: 5px 12px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px;
+    padding-left: 30px;
+    font-family: '微软雅黑';
+    font-size: 16px;
+    color: #3fb2ac;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover{
+    background-color: #45c8dc;
+}
+#main-nav {
+    /*margin-left: 1px;*/
+    padding: 0px;
+    background-color: #3b4966;
+    /*margin-left: 15px;*/
+}
+
+#main-nav.nav-list.nav-stacked > li > div {
+    width: 100%;
+    padding: 10px 8px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #829ac6;
+    background-color: #3b4966;
+    /*border-left: 5px solid #3fb2ac;*/
+    border-bottom: 1px solid #52607d;
+    border-top: 0px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#main-nav.nav-list.nav-stacked > li > a > span {
+    color: #829ac6;
+}
+
+#main-nav.nav-list.nav-stacked > li.active > div, #main-nav.nav-list.nav-stacked > li > div:hover {
+    color: #45c8dc;
+    background-color: #56678a;
+    border-bottom-color: #3fb2ac;
+}
+
+#main-nav.nav-list.nav-stacked > li.active > div, #main-nav.nav-list.nav-stacked > li > div:hover > span {
+    color: #3fb2ac;
+}
+
+#main-nav.nav-list.nav-stacked > li {
+    /*margin-bottom: 4px;*/
+}
+
+/*定义二级菜单样式*/
+.secondmenu > li> div {
+    font-size: 15px;
+    font-weight: 600;
+    color: #829ac6;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px dashed #52607d;
+    background-color: #3f4f7f;
+    cursor: pointer;
+    /*border-left: 5px solid #3fb2ac;*/
+}
+
+.secondmenu > li> div:hover {
+    color: #45c8dc;
+    background-color: #56678a;
+    /*border-bottom-color: #3fb2ac;*/
+}
+/*.secondmenu > li> a:visited{
+    color: #45c8dc;
+    border:0;
+    color: #829ac6;
+    text-align: center;
+    background-color: #3b4966;
+}*/
+
+.li-color-1{
+    border-left: 5px solid #3fb2ac;
+}
+.li-color-2{
+    border-left: 5px solid #3598dc;
+}
+.li-color-3{
+    border-left: 5px solid #e7505a;
+}
+.li-color-4{
+    border-left: 5px solid #27adb9;
+}
+.li-color-5{
+    border-left: 5px solid #8540a3;
+}
+.li-color-6{
+    border-left: 5px solid #c8a331;
+}
+.li-color-6{
+    border-left: 5px solid #f7868d;
+}
+.li-color-7{
+    border-left: 5px solid #61b3ec;
+}
+
+/*main页面*/
+.b-tip-div{
+    padding: 10px;
+}
+.b-tip{
+    height: 110px;
+    width: 100%;
+    border-radius: 4px;
+}
+.b-color-tip1{
+    background-color: #3598dc;
+}
+.b-color-tip2{
+    background-color: #e7505a;
+}
+.b-color-tip3{
+    background-color: #e79360;
+}
+.b-color-tip4{
+    background-color: #8e44ad;
+}
+.b-tip-footer{
+    height:30px;
+    width: 100%;
+    background-color: #555;
+    opacity: 0.5;
+    line-height: 30px;
+    color: #fff;
+    text-indent: 10px;
+    border-radius: 0 0 4px 4px; 
+}
+.b-tip-body{
+    height:80px;
+    width: 100%;
+    border-radius: 0 0 4px 4px; 
+}
+.b-tip-left{
+    /*background-color: red;*/
+    width: 80px;
+    height: 80px;
+    float: left;
+    font-size: 60px;
+    text-align: right;
+    color: #fff;
+    opacity: 0.7;
+
+}
+.b-tip-right{
+    width: auto;
+    height: 80px;
+    float: right;
+    /*background-color: gold;*/
+    margin-right: 10px;
+}
+.b-tip-titleb{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    text-align: right;
+    font-size: 24px;
+}
+.b-tip-titlel{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-align: right;
+}
+.b-more{
+    height: 30px;
+    float: right;
+    line-height: 28px;
+    padding-right: 5px;
+}
+.b-main-list{
+    padding: 10px;
+}
+.b-main-list-info{
+    background-color: #fff;
+    height: 460px;
+    width: 100%;
+    border-radius: 4px;
+}

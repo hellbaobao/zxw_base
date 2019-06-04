@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    {$Think.const.ADMIN_META}{$Think.const.ADMIN_CSS}{$Think.const.ADMIN_COMPATIBLE}{$Think.const.ADMIN_JS}{$Assigndata}
+    <link rel="stylesheet" href="/Public/admin/css/common.css">
+    <link rel="stylesheet" href="/Public/Plugin/bootstrap/css/bootstrap-treeview.css">
+    <script type="application/javascript" src="/Public/Plugin/bootstrap/js/bootstrap-treeview.js"></script>
+    <script type="text/javascript" src="/Public/Plugin/layer-v3.0.2/layer.js"></script>
+    <script type="application/javascript" src="/Public/admin/js/common.js"></script>
+    <script type="application/javascript" src="/Public/admin/js/dbbackup/dbbackup.js"></script>
+</head>
+<body>
+    <div class="option_search" >
+        <button type="button" class="btn btn-warning backupDb" id="backupDb-btn" style="height: 34px;">
+            <span class="glyphicon glyphicon-hdd"></span> 备份数据库
+        </button>
+    </div>
+    <div class="table_content">
+        <table class="table table-hover">
+            <tr>
+                <th style="width: 50px;">全选</th>
+                <th><input type="checkbox" name="allChecked" onclick="setAllChecked(this);"/></th>
+                <th>数据名称</th>
+                <th>数据路径</th>
+                <th>备份时间</th>
+                <th>操作</th>
+            </tr>
+            <notempty name="infoList">
+                <foreach name="infoList" item="v" key="k">
+                    <tr class="tr">
+                        <td>{:(I('get.p'))?((I('get.p')-1)*C('PAGE_SIZE')+$k+1):($k+1)}</td>
+                        <td><input type="checkbox" name="rowChecked" value="{$v.id}"/></td>
+                        <td>{$v.db_name}</td>
+                        <td>{$v.db_path}</td>
+                        <td>{$v.backup_time}</td>
+                        <td>
+                            <div>
+<!--                                <button class="btn btn-default edit-btn" onclick="refreshBackupDb({$v.id});">
+                                    <span class="glyphicon glyphicon-refresh"></span> 还原
+                                </button>-->
+                                <button class="btn btn-default del-btn delBackupDb" onclick="delBackupDb({$v.id})">
+                                    <span class="glyphicon glyphicon-trash"></span> 删除
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                </foreach>
+            </notempty>
+            <empty name="infoList">
+                <tr><td colspan="7">暂无数据</td></tr>
+            </empty>
+        </table>
+        <div style="text-align: center;">{$page}</div>
+    </div>
+</body>
+</html>

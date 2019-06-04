@@ -1,0 +1,369 @@
+[ 2018-05-18T15:26:32+08:00 ] 127.0.0.1 /index.php/Dxt/Index/getAdList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_seller_info` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `qs_sqk_seller_info` WHERE ( 1=1 ) ORDER BY RAND() LIMIT 5   [ RunTime:0.0034s ]
+
+[ 2018-05-18T16:17:31+08:00 ] 127.0.0.1 /index.php/Dxt/Index/getAdList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_seller_info` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `qs_sqk_seller_info` WHERE ( 1=1 ) ORDER BY RAND() LIMIT 5   [ RunTime:0.0032s ]
+
+[ 2018-05-18T16:17:33+08:00 ] 127.0.0.1 /index.php/Dxt/Index/getAdList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_seller_info` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `qs_sqk_seller_info` WHERE ( 1=1 ) ORDER BY RAND() LIMIT 5   [ RunTime:0.0030s ]
+
+[ 2018-05-18T16:17:35+08:00 ] 127.0.0.1 /index.php/Dxt/Index/getAdList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_seller_info` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `qs_sqk_seller_info` WHERE ( 1=1 ) ORDER BY RAND() LIMIT 5   [ RunTime:0.0044s ]
+
+[ 2018-05-18T16:17:37+08:00 ] 127.0.0.1 /index.php/Dxt/Index/getAdList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_seller_info` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `qs_sqk_seller_info` WHERE ( 1=1 ) ORDER BY RAND() LIMIT 5   [ RunTime:0.0032s ]
+
+[ 2018-05-18T16:44:19+08:00 ] 127.0.0.1 /index.php/Dxt/Index/getAdList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_seller_info` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `qs_sqk_seller_info` WHERE ( 1=1 ) ORDER BY RAND() LIMIT 5   [ RunTime:0.0032s ]
+
+[ 2018-05-18T16:44:44+08:00 ] 127.0.0.1 /index.php/Dxt/Index/getCardUserInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `qs_sqk_sys_userapp_info` WHERE `iccard_num` = '1363849997' AND `is_enable` = 1 LIMIT 1   [ RunTime:0.0032s ]
+
+[ 2018-05-18T16:44:44+08:00 ] 127.0.0.1 /index.php/Dxt/Index/getAdList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_seller_info` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `qs_sqk_seller_info` WHERE ( 1=1 ) ORDER BY RAND() LIMIT 5   [ RunTime:0.0028s ]
+
+[ 2018-05-18T16:44:44+08:00 ] 127.0.0.1 /index.php/Dxt/login/checkIsLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_notice_cat` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `qs_sqk_notice_cat` WHERE ( is_enable=1 )  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Dxt\Controller\NoticeController.class.php 第 180 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_notice_info` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_notice_info` WHERE ( is_publish=1 and read_ids not like "%,133,%" and cat_id in (0,1,2,3) ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_cat` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( is_enable=1 )  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Dxt\Controller\ActivityController.class.php 第 378 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_info` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_activ_info` WHERE ( is_publish=1 and read_ids not like "%,133,%" and cat_id in (0,1,2) ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-05-18T16:44:44+08:00 ] 127.0.0.1 /index.php/Dxt/Activity/getList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_cat` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( is_enable=1 )  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Dxt\Controller\ActivityController.class.php 第 378 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_info` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `qs_sqk_activ_info` WHERE `is_publish` = 1 AND `cat_id` IN ('0','1','2') ORDER BY id desc LIMIT 4   [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_activ_info` WHERE `is_publish` = 1 AND `cat_id` IN ('0','1','2') LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qs_sqk_activ_info` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_all_attach` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `qs_sqk_sys_all_attach` WHERE ( module_name="activity" and module_info_id=14 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `qs_sqk_activ_info` WHERE ( id=13 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qs_sqk_sys_all_attach` WHERE ( module_name="activity" and module_info_id=13 )  [ RunTime:0.0026s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qs_sqk_activ_info` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `qs_sqk_sys_all_attach` WHERE ( module_name="activity" and module_info_id=12 )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qs_sqk_activ_info` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qs_sqk_sys_all_attach` WHERE ( module_name="activity" and module_info_id=11 )  [ RunTime:0.0012s ]
+
+[ 2018-05-18T16:44:47+08:00 ] 127.0.0.1 /index.php/Dxt/login/checkIsLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_notice_cat` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `qs_sqk_notice_cat` WHERE ( is_enable=1 )  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Dxt\Controller\NoticeController.class.php 第 180 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_notice_info` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_notice_info` WHERE ( is_publish=1 and read_ids not like "%,133,%" and cat_id in (0,1,2,3) ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_cat` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( is_enable=1 )  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Dxt\Controller\ActivityController.class.php 第 378 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_info` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_activ_info` WHERE ( is_publish=1 and read_ids not like "%,133,%" and cat_id in (0,1,2) ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-05-18T16:44:49+08:00 ] 127.0.0.1 /index.php/Dxt/login/checkIsLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_notice_cat` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `qs_sqk_notice_cat` WHERE ( is_enable=1 )  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Dxt\Controller\NoticeController.class.php 第 180 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_notice_info` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_notice_info` WHERE ( is_publish=1 and read_ids not like "%,133,%" and cat_id in (0,1,2,3) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_cat` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( is_enable=1 )  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Dxt\Controller\ActivityController.class.php 第 378 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_info` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_activ_info` WHERE ( is_publish=1 and read_ids not like "%,133,%" and cat_id in (0,1,2) ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-05-18T16:44:49+08:00 ] 127.0.0.1 /index.php/Dxt/Index/getUserappInfo?type=api
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `qs_sqk_sys_userapp_info` WHERE `id` = 133 LIMIT 1   [ RunTime:0.0026s ]
+
+[ 2018-05-18T16:45:03+08:00 ] 127.0.0.1 /index.php/Dxt/Index/getAdList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_seller_info` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `qs_sqk_seller_info` WHERE ( 1=1 ) ORDER BY RAND() LIMIT 5   [ RunTime:0.0030s ]
+
+[ 2018-05-18T16:45:03+08:00 ] 127.0.0.1 /index.php/Dxt/login/checkIsLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_notice_cat` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qs_sqk_notice_cat` WHERE ( is_enable=1 )  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Dxt\Controller\NoticeController.class.php 第 180 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_notice_info` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_notice_info` WHERE ( is_publish=1 and read_ids not like "%,133,%" and cat_id in (0,1,2,3) ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_cat` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( is_enable=1 )  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Dxt\Controller\ActivityController.class.php 第 378 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_info` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_activ_info` WHERE ( is_publish=1 and read_ids not like "%,133,%" and cat_id in (0,1,2) ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-05-18T16:45:03+08:00 ] 127.0.0.1 /index.php/Dxt/Activity/getList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_cat` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( is_enable=1 )  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Dxt\Controller\ActivityController.class.php 第 378 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_info` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `qs_sqk_activ_info` WHERE `is_publish` = 1 AND `cat_id` IN ('0','1','2') ORDER BY id desc LIMIT 4   [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_activ_info` WHERE `is_publish` = 1 AND `cat_id` IN ('0','1','2') LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qs_sqk_activ_info` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_all_attach` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `qs_sqk_sys_all_attach` WHERE ( module_name="activity" and module_info_id=14 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qs_sqk_activ_info` WHERE ( id=13 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qs_sqk_sys_all_attach` WHERE ( module_name="activity" and module_info_id=13 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qs_sqk_activ_info` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qs_sqk_sys_all_attach` WHERE ( module_name="activity" and module_info_id=12 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qs_sqk_activ_info` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `qs_sqk_sys_all_attach` WHERE ( module_name="activity" and module_info_id=11 )  [ RunTime:0.0012s ]
+
+[ 2018-05-18T16:45:22+08:00 ] 127.0.0.1 /index.php/Dxt/Index/getAdList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_seller_info` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qs_sqk_seller_info` WHERE ( 1=1 ) ORDER BY RAND() LIMIT 5   [ RunTime:0.0029s ]
+
+[ 2018-05-18T16:45:22+08:00 ] 127.0.0.1 /index.php/Dxt/login/checkIsLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_notice_cat` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `qs_sqk_notice_cat` WHERE ( is_enable=1 )  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Dxt\Controller\NoticeController.class.php 第 180 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_notice_info` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_notice_info` WHERE ( is_publish=1 and read_ids not like "%,133,%" and cat_id in (0,1,2,3) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_cat` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( is_enable=1 )  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Dxt\Controller\ActivityController.class.php 第 378 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_info` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_activ_info` WHERE ( is_publish=1 and read_ids not like "%,133,%" and cat_id in (0,1,2) ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-05-18T16:45:22+08:00 ] 127.0.0.1 /index.php/Dxt/Activity/getList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_cat` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( is_enable=1 )  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Dxt\Controller\ActivityController.class.php 第 378 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_info` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `qs_sqk_activ_info` WHERE `is_publish` = 1 AND `cat_id` IN ('0','1','2') ORDER BY id desc LIMIT 4   [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_activ_info` WHERE `is_publish` = 1 AND `cat_id` IN ('0','1','2') LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qs_sqk_activ_info` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_all_attach` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `qs_sqk_sys_all_attach` WHERE ( module_name="activity" and module_info_id=14 )  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qs_sqk_activ_info` WHERE ( id=13 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qs_sqk_sys_all_attach` WHERE ( module_name="activity" and module_info_id=13 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `qs_sqk_activ_info` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `qs_sqk_sys_all_attach` WHERE ( module_name="activity" and module_info_id=12 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `qs_sqk_activ_info` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `qs_sqk_sys_all_attach` WHERE ( module_name="activity" and module_info_id=11 )  [ RunTime:0.0012s ]
+
+[ 2018-05-18T16:45:25+08:00 ] 127.0.0.1 /index.php/Dxt/login/checkIsLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_notice_cat` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `qs_sqk_notice_cat` WHERE ( is_enable=1 )  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Dxt\Controller\NoticeController.class.php 第 180 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_notice_info` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_notice_info` WHERE ( is_publish=1 and read_ids not like "%,133,%" and cat_id in (0,1,2,3) ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_cat` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( is_enable=1 )  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Dxt\Controller\ActivityController.class.php 第 378 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_info` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_activ_info` WHERE ( is_publish=1 and read_ids not like "%,133,%" and cat_id in (0,1,2) ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-05-18T16:45:26+08:00 ] 127.0.0.1 /index.php/Dxt/login/checkIsLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_notice_cat` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `qs_sqk_notice_cat` WHERE ( is_enable=1 )  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Dxt\Controller\NoticeController.class.php 第 180 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_notice_info` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_notice_info` WHERE ( is_publish=1 and read_ids not like "%,133,%" and cat_id in (0,1,2,3) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_cat` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( is_enable=1 )  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Dxt\Controller\ActivityController.class.php 第 378 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_info` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_activ_info` WHERE ( is_publish=1 and read_ids not like "%,133,%" and cat_id in (0,1,2) ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-05-18T16:45:26+08:00 ] 127.0.0.1 /index.php/Dxt/Index/getUserappInfo?type=api
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `qs_sqk_sys_userapp_info` WHERE `id` = 133 LIMIT 1   [ RunTime:0.0034s ]
+
+[ 2018-05-18T16:45:33+08:00 ] 127.0.0.1 /index.php/Dxt/Index/getUserappInfo?type=api
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qs_sqk_sys_userapp_info` WHERE `id` = 133 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2018-05-18T16:45:33+08:00 ] 127.0.0.1 /index.php/Dxt/Index/saveUserappInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: usr E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Dxt\Controller\IndexController.class.php 第 320 行.
+NOTIC: [8] Undefined index: validate E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `qs_sqk_sys_userapp_info` SET `tel`='15727363233',`usr`=NULL,`realname`='陈',`gender`='0',`birthday`='2016-05-01',`address_id`='1' WHERE ( id=133 ) [ RunTime:0.0018s ]
+
+[ 2018-05-18T16:45:33+08:00 ] 127.0.0.1 /index.php/Dxt/Index/getUserappInfo?type=api
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_userapp_info` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `qs_sqk_sys_userapp_info` WHERE `id` = 133 LIMIT 1   [ RunTime:0.0041s ]
+
+[ 2018-05-18T16:45:37+08:00 ] 127.0.0.1 /index.php/Dxt/login/checkIsLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_notice_cat` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `qs_sqk_notice_cat` WHERE ( is_enable=1 )  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Dxt\Controller\NoticeController.class.php 第 180 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_notice_info` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_notice_info` WHERE ( is_publish=1 and read_ids not like "%,133,%" and cat_id in (0,1,2,3) ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_cat` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `qs_sqk_activ_cat` WHERE ( is_enable=1 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\qskj_project_sqk_debug_git\qskj_sqk\sqk\Application\Dxt\Controller\ActivityController.class.php 第 378 行.
+SQL: SHOW COLUMNS FROM `qs_sqk_activ_info` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qs_sqk_activ_info` WHERE ( is_publish=1 and read_ids not like "%,133,%" and cat_id in (0,1,2) ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-05-18T16:45:44+08:00 ] 127.0.0.1 /index.php/Dxt/Index/getAdList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_sys_config_def` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `qs_sqk_sys_config_def`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `qs_sqk_seller_info` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `qs_sqk_seller_info` WHERE ( 1=1 ) ORDER BY RAND() LIMIT 5   [ RunTime:0.0033s ]
+
